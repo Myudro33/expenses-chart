@@ -2,7 +2,7 @@ import React from 'react'
 
 const Wrapper = ({children}) => {
   return (
-    <div className='xs:w-[95%] bg-green-300 md:w-96 xs:h-[95%] md:h-[33rem] flex-col justify-between'>{children}</div>
+    <div className='xs:w-[95%] md:w-96 xs:h-[95%] md:h-[33rem] flex flex-col  md:justify-between'>{children}</div>
   )
 }
 
